@@ -32,3 +32,11 @@ const randomIndex = () => {
     return Math.floor(Math.random() * 10);
 };
 
+const fortuneTeller = () => {
+    return console.log(`\nYou are ${fortune.adjectives[randomIndex()]}.\nRemember, ${fortune.quote[randomIndex()]}\nFinally, ${fortune.advice[randomIndex()]}`);
+};
+
+
+fortuneTeller();
+
+
