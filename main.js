@@ -33,10 +33,15 @@ const randomIndex = () => {
 };
 
 const fortuneTeller = () => {
-    return console.log(`\nYou are ${fortune.adjectives[randomIndex()]}.\nRemember, ${fortune.quote[randomIndex()]}\nFinally, ${fortune.advice[randomIndex()]}`);
+    return console.log(`\nYou are ${fortune.adjectives[randomIndex()]}.\nRemember, ${fortune.quote[randomIndex()]}\nFinally, ${fortune.advice[randomIndex()]}\n`);
 };
 
-
+console.log(" ______         _                      _______   _ _  ");
+console.log("|  ____|       | |                    |__   __| | | |");
+console.log("| |__ ___  _ __| |_ _   _ _ __   ___     | | ___| | | ___ _ __");
+console.log("|  __/ _ \\| '__| __| | | | '_ \\ / _ \     | |/ _ \| | / _ \ '__|");
+console.log("| | | (_) | |  | |_| |_| | | | |  __/    | |  __/ | |  __/ |");
+console.log("|_|  \\___/|_|  \\__| \\__,_|_| |_|\___|     |_|\___ |_|_|\___|_|");
 fortuneTeller();
 
 
